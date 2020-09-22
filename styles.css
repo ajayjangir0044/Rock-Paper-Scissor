@@ -51,7 +51,7 @@ body {
 #img2 {
     background: url(men2.jpg);
     background-size: cover;
-    
+    background-position: center;
     background-repeat: no-repeat !important;
 }
 
@@ -110,7 +110,7 @@ margin-top: 40px;
 #player1{
     background: url(women.jpg);
     background-size: cover;
-    
+    background-position:center ;
     background-repeat: no-repeat !important;
 }
 #player2{
