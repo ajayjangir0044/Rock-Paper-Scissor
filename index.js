@@ -44,18 +44,24 @@ let clickOp3 = document.querySelector("#op3")
 
 clickOp1.addEventListener('click', function () {
     round = 6
+    
+    document.querySelector("#compImg").style.backgroundImage="url()"
     document.querySelector("#op2").style.opacity = "0.6"
     document.querySelector("#op3").style.opacity = "0.6"
     document.querySelector("#op1").style.opacity = "1"
 })
 clickOp2.addEventListener('click', function () {
     round = 7
+    
+    document.querySelector("#compImg").style.backgroundImage="url()"
     document.querySelector("#op1").style.opacity = "0.6"
     document.querySelector("#op3").style.opacity = "0.6"
     document.querySelector("#op2").style.opacity = "1"
 })
 clickOp3.addEventListener('click', function () {
     round = 9
+    
+    document.querySelector("#compImg").style.backgroundImage="url()"
     document.querySelector("#op1").style.opacity = "0.6"
     document.querySelector("#op2").style.opacity = "0.6"
     document.querySelector("#op3").style.opacity = "1"
@@ -100,6 +106,7 @@ choices1.addEventListener("click", function () {
         changedImg.style.backgroundImage = " " + changeImg
     } else {
 
+        document.querySelector("#compImg").style.backgroundImage="url()"
         console.log(ComputerScore, Player1Score)
         document.querySelector("#bg3").style.display = "none"
         document.querySelector("#last").style.visibility = "visible"
@@ -139,6 +146,8 @@ choices2.addEventListener("click", function () {
 
         changedImg.style.backgroundImage = " " + changeImg
     } else {
+        
+    document.querySelector("#compImg").style.backgroundImage="url()"
         document.querySelector("#bg3").style.display = "none"
 
         document.querySelector("#last").style.visibility = "visible"
@@ -179,6 +188,8 @@ choices3.addEventListener("click", function () {
 
         changedImg.style.backgroundImage = " " + changeImg
     } else {
+        
+    document.querySelector("#compImg").style.backgroundImage="url()"
         document.querySelector("#bg3").style.display = "none"
 
         document.querySelector("#last").style.visibility = "visible"
@@ -214,6 +225,7 @@ document.querySelector("#restart").addEventListener('click', function () {
     document.querySelector("#bg2").style.display = "block";
     document.querySelector("#game").style.visibility = "hidden"
     document.querySelector("#last").style.visibility="hidden"
+    document.querySelector("#compImg").style.backgroundImage="url()"
     
 })
 
@@ -229,6 +241,7 @@ let buttonClick = document.querySelector("#button").addEventListener('click', fu
     choices2.style.opacity = "1"
     choices1.style.opacity = "1"
     choices3.style.opacity = "1"
+    document.querySelector("#compImg").style.backgroundImage="url()"
     if (gender == 2) {
         imgchange.style.backgroundImage = "url('men2.jpg')"
     }
