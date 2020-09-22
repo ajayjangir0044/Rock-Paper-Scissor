@@ -44,7 +44,7 @@ body {
     background: url(women.jpg);
     background-size: cover;
     
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 
 }
 
@@ -52,7 +52,7 @@ body {
     background: url(men2.jpg);
     background-size: cover;
     
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
 
 #img1,
@@ -111,13 +111,13 @@ margin-top: 40px;
     background: url(women.jpg);
     background-size: cover;
     
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
 #player2{
     background: url(bot.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
 #gameCharacters{
 
@@ -134,7 +134,7 @@ margin-top: 40px;
     width: 100%;
     height: 100%;
     
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
 #gameChoices{
     padding: 10px 40px;
