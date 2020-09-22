@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper & Scissor Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="bg">
+        <h1>Rock Paper & Scissor</h1>
+        <div id="bg2">
+
+            <div id="characterDiv">
+                <h4>Choose your character:</h4>
+                <div class="characterImages">
+                    <div class="bgImg" id="firstImgDiv">
+                        <div id="img1">
+
+                        </div>
+                    </div>
+                    <div class="bgImg" id="secondImgDiv">
+                        <div id="img2">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="rounds">
+                <h4>How many rounds do you want to play?</h4>
+
+                <div id="options">
+                    <div id="op1">
+                        <p>6</p>
+                    </div>
+                    <div id="op2">
+                        <p>7</p>
+                    </div>
+                    <div id="op3">
+                        <p>9</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="buttons"><button type="button" id="button" class="btn btn-light">Start</button>
+            </div>
+        </div>
+        <div id="game">
+
+            <div id="players">
+                <div class="characterImages" id="gameCharacters">
+                    <div class="bgImg" id="playerImg">
+                        <div id="player1">
+
+                        </div>
+                    </div>
+                    <div class="bgImg" id="computerImg">
+                        <div id="player2">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div id="name">
+                <p>Score: <span id="p1">0</span></p>
+                <p>Score: <span id="p2">0</span></p>
+            </div>
+            <div id="bg3">
+                <div id="choices">
+                    <h4>Your Choice</h4>
+                    <div class="characterImages" id="gameChoices">
+                        <div class="bgImg ab" id="playerImg">
+                            <div id="choice1">
+
+                            </div>
+                        </div>
+                        <div class="bgImg ab" id="computerImg">
+                            <div id="choice2">
+                            </div>
+                        </div>
+                        <div class="bgImg ab" id="computerImg">
+                            <div id="choice3">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div id="compHeadline">
+                    <h4 id="abc">Computer Chooses</h4>
+                </div>
+                <div id="computerTurn">
+                    <div id="outerDiv" class="bgImg">
+                        <div id="compImg">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="last">
+                <h4><span id="result"> You won</span>🧡 </h4>
+                <button type="button" id="restart" class="btn btn-light">Rematch</button>
+
+            </div>
+
+
+
+        </div>
+        <div id="credit">
+            <h5>This website is designed with 🧡 by <a href=""> <span id="myName"> Ajay Jangir</span></a> </h5>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
