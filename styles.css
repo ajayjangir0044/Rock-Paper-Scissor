@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gilroy', sans-serif;
+    background-repeat: no-repeat;
 }
 
 html,
@@ -13,7 +14,7 @@ body {
 
 #bg {
     background: linear-gradient(#ee9ca7, #ffdde1);
-   
+
 }
 
 #bg h1,
@@ -29,11 +30,13 @@ body {
     font-size: 18px;
 }
 
-.characterImages,#name {
+.characterImages,
+#name {
     display: flex;
     justify-content: space-between;
     padding: 55px 70px;
 }
+
 .bgImg {
     background-color: #fff;
     padding: 4px;
@@ -43,7 +46,7 @@ body {
 #img1 {
     background: url(women.jpg);
     background-size: cover;
-    
+
     background-repeat: no-repeat !important;
 
 }
@@ -56,186 +59,219 @@ body {
 }
 
 #img1,
-#img2,#player1,#player2 {
+#img2,
+#player1,
+#player2 {
     border-radius: 50%;
     height: 100px;
     width: 100px;
 
 }
-#rounds{
+
+#rounds {
     margin-top: 10px;
 }
 
-#rounds h4{
+#rounds h4 {
     margin: 0;
     padding: 0;
 }
-#options{
+
+#options {
     display: flex;
     justify-content: space-between;
     padding: 55px;
 }
-#op1,#op2,#op3{
-    
+
+#op1,
+#op2,
+#op3 {
+
     border-radius: 50%;
     background-color: #fff;
 
     height: 50px;
-    width:50px;
-    
+    width: 50px;
+
     position: relative;
 }
-#options p{
+
+#options p {
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#buttons{
+
+#buttons {
     position: relative;
 }
-#button{
+
+#button {
     margin-top: 30px;
     height: 40px;
-    width:300px;
+    width: 300px;
 
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#game{
-margin-top: 40px;
+
+#game {
+    margin-top: 40px;
 }
-#player1{
+
+#player1 {
     background: url(women.jpg);
     background-size: cover;
-    background-position:center ;
+    background-position: center;
     background-repeat: no-repeat !important;
 }
-#player2{
+
+#player2 {
     background: url(bot.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat !important;
 }
-#gameCharacters{
+
+#gameCharacters {
 
     padding-bottom: 20px;
 }
-#name{
+
+#name {
     padding: 0px 95px;
     margin: 0;
     /* padding: 55px 70px; */
 }
 
-#rock{
+#rock {
     background: url(bot.jpg);
     width: 100%;
     height: 100%;
-    
+
     background-repeat: no-repeat !important;
 }
-#gameChoices{
+
+#gameChoices {
     padding: 10px 40px;
 }
-#choice1,#choice2,#choice3{
+
+#choice1,
+#choice2,
+#choice3 {
     border-radius: 50%;
     height: 70px;
     width: 70px;
 }
-#choice1{
+
+#choice1 {
     background: url(http://hannahch.com/images/rock.svg);
     background-size: 50%;
     background-position: center;
-    
+
     background-repeat: no-repeat;
 }
-#choice1{
-    
+
+#choice1 {
+
     background: url(http://hannahch.com/images/rock.svg);
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#choice2{
-    
+#choice2 {
+
     background: url(http://hannahch.com/images/paper.svg);
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#choice3{
-    
+#choice3 {
+
     background: url(http://hannahch.com/images/scissors.svg);
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.ab{
+.ab {
     background-color: rgb(255, 255, 255);
 }
-#choices>h4,#computerTurn>h4{
+
+#choices>h4,
+#computerTurn>h4 {
     margin: 0;
     padding: 35px 30px 30px;
 }
-#gameCharacters{
-    padding-top:25px;
+
+#gameCharacters {
+    padding-top: 25px;
 }
-#computerTurn{
-   
-    
+
+#computerTurn {
+
+
     padding-top: 0px;
     padding-bottom: 0px;
 }
-#compHeadline{
-   
 
+#compHeadline {
 
     margin: 20px;
     margin-bottom: 40px;
-    padding: 0;}
-#outerDiv{
+    padding: 0;
+}
+
+#outerDiv {
     height: 80px;
     width: 80px;
     margin-left: 142px;
-  
-  
+
+
 }
 
 
-#compImg{
+#compImg {
     border-radius: 50%;
     height: 70px;
-     background: url();
+    background: url();
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 #abc {
     margin: 0;
     padding: 0 !important;
 }
-#last{
+
+#last {
     padding: 50px;
 }
-#restart{
+
+#restart {
     height: 50px;
     width: 100%;
 }
-#last h4{
+
+#last h4 {
     margin-bottom: 60px;
     padding-top: 0;
 }
-#last{
+
+#last {
     padding-bottom: 295px;
 }
-#game{
+
+#game {
     visibility: hidden;
 }
-#last{
+
+#last {
     visibility: hidden;
 }
